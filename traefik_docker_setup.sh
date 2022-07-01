@@ -2,6 +2,8 @@
 
 sudo apt install apache2-utils -y
 
+docker network create proxy
+
 ## Passwort für Traefik setzen -- Ausgabe speichern!
 
 htpasswd -nb traefikadmin password
